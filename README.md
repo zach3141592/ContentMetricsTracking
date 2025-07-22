@@ -1,4 +1,4 @@
-# social media metrics tracker (only insta for now)
+# social media metrics tracker (only insta for now) -- TO DO: implement Insta API, switch DB from SQLite to Postgre (prolly SupaBase)
 
 ## Features
 
