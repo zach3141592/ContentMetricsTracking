@@ -1,6 +1,4 @@
-# Instagram Analytics Tracker
-
-A comprehensive web application for marketing teams to track Instagram post analytics with role-based access control.
+# social media metrics tracker (only insta for now)
 
 ## Features
 
@@ -18,36 +16,6 @@ A comprehensive web application for marketing teams to track Instagram post anal
 - **Team Management**: Add/remove team members, manage user roles
 - **Analytics Refresh**: Update analytics data for individual posts or all posts at once
 - **User Management**: Create intern and admin accounts
-
-### Technical Features
-
-- JWT-based authentication with role-based access control
-- SQLite database for easy setup and development
-- Instagram API integration (currently uses mock data for demo)
-- Modern React frontend with Tailwind CSS
-- Express.js REST API backend
-- Real-time analytics updates
-- Responsive design for mobile and desktop
-
-## Tech Stack
-
-**Frontend:**
-
-- React 18
-- React Router DOM
-- Tailwind CSS
-- Axios for API calls
-- React Hot Toast for notifications
-- Date-fns for date formatting
-
-**Backend:**
-
-- Node.js with Express.js
-- SQLite database
-- JWT authentication
-- bcryptjs for password hashing
-- CORS, Helmet for security
-- Rate limiting protection
 
 ## Quick Start
 
@@ -191,7 +159,7 @@ Currently, the app uses mock data for demonstration purposes. To integrate with 
 
 ## Database Schema
 
-The app uses SQLite with three main tables:
+The app uses SQLite with three main tables: (SWITCH THIS TO SUPABASE OR SMTH FOR PROD)
 
 - **users**: User accounts with roles (admin/intern)
 - **instagram_posts**: Instagram post URLs and metadata
@@ -252,26 +220,7 @@ cd backend && npm run init-db
    - Frontend build can be served statically or deployed to Netlify/Vercel
    - Configure proper environment variables on your hosting platform
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
 ## License
 
 MIT License - see LICENSE file for details.
 
-## Support
-
-For questions or issues:
-
-1. Check the GitHub issues page
-2. Create a new issue with detailed information
-3. Include error logs and steps to reproduce
-
----
-
-**Note**: This application currently uses mock Instagram data for demonstration. For production use, you'll need to implement proper Instagram API integration following their terms of service and rate limiting guidelines.
