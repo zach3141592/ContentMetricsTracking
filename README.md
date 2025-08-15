@@ -1,6 +1,6 @@
 # social media metrics tracker (only insta for now) -- TO DO: implement Insta API, switch DB from SQLite to Postgre (prolly SupaBase)
 
-Future - use wenscraping instead of insta and tiktok apis
+Future - use webscraping instead of insta and tiktok apis
 
 ## Features
 
